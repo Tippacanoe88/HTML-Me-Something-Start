@@ -1,1 +1,46 @@
 /* Write your CSS here! */
+body {
+    margin:8px; /* Applying margins to the main body*/
+    display: block; /*set display type to block*/
+}
+
+/*ID selector*/
+#mainHeading {
+    /*Styling for the main Heading with the ID "mainHeading"*/
+    color: red;
+    font-size: 24px;
+    background-color: lightblue;
+}
+#funParagraph {
+    color: green;
+}
+#secondParagraph {
+    background-color: salmon;
+    padding: 10px;
+}
+#thirdParagraph {
+    background-color: lightgreen;
+    padding: 10px;
+}
+#concludingParagraph {
+    background-color: lightsteelblue;
+    padding: 10px;
+}
+
+/*body: Applied a margin of 8px to the body element to provide spacing
+ around the entire content and set its display type to block (though 
+ it's the default display type for the body).
+
+#mainHeading: Used the ID selector to target the <h1> element with the
+ ID of "mainHeading". This can be used to modify specific styles for 
+ this heading, such as changing the font color and size.
+
+#funParagraph: Utilized the class selector to target paragraphs with 
+the class "funParagraph". This allows for specific styling of
+ paragraphs with this class, like adding a background color and 
+ padding to make them visually distinct.
+
+Make sure the HTML file (index.html) and the CSS file (styles.css)
+are in the same folder for the styles to apply correctly. Adjust the
+ CSS styling properties as needed to achieve the desired visual
+ effects.*/
