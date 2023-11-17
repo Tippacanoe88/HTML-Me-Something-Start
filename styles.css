@@ -11,7 +11,7 @@ body {
     font-size: 24px;
     background-color: lightblue;
 }
-#funParagraph {
+.funParagraph {
     color: green;
 }
 #secondParagraph {
